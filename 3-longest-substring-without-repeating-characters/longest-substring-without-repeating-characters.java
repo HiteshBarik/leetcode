@@ -13,7 +13,6 @@ class Solution {
                     substring.subList(0, index).clear();
                 }
             }
-            System.out.println(substring);
             substring.add(s.charAt(i));
             largestLength = Math.max(largestLength, substring.size());
         }
